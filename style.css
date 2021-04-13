@@ -1,0 +1,75 @@
+.foodArea {
+    margin-top: 50px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+.search button {
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    margin-left: -3px;
+    background-color: rgb(243, 89, 62);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.search input {
+    width: 300px;
+    height: 20px;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    background-color: lightgray;
+}
+
+#showFood {
+    display: grid;
+    grid-template-columns: repeat(4, 3in);
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.displayFood {
+    background-color:rgb(231, 230, 230);
+    width: 250px;
+    height: 270px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.displayFood img {
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.ShowIfo {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+
+#detailDiv img {
+    width: 450px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+#detailDiv {
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#detailDiv p {
+    margin: 5px;
+    font-size: 18px;
+}
